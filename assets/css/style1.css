@@ -219,21 +219,33 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
 	
 	.container {
+		width: 100%;
+	}
+	#masthead{
 		width: 90%;
 	}
-	#masterhead{
-		width: 90%;
+	.mainsection{
+		width:70%;
 	}
+	.sidebar{
+		width:30%;
+	}
+
 	
 }
 
 @media screen and (max-width: 640px) {
 	.container{
-		width: 70%;
+		width: 100%;
 	}
-	#masterhead{
-		width: 90%;
+	#masthead{
+		width: 100%;
 	}
-	
+	.mainsection{
+		width:100%;
+	}
+	.sidebar{
+		width:100%
+	}
 }
 
